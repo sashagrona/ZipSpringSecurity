@@ -67,6 +67,6 @@ public class Downloader implements Runnable {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        Thread.currentThread().interrupt();
+      
     }
 }
